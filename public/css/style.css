@@ -1,0 +1,54 @@
+/* Produk Grid */
+.produk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+/* Produk Item */
+.produk-item {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 15px;
+  width: 260px;
+  text-align: center;
+  transition: transform 0.3s;
+  border: 1px solid #2e2e2e;
+}
+
+.produk-item:hover {
+  transform: scale(1.05);
+}
+
+.produk-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.produk-item h3 {
+  margin: 10px 0 5px;
+  color: #00c6ff;
+}
+
+.produk-item p {
+  color: #ccc;
+  font-size: 15px;
+}
+
+/* Tombol */
+button {
+  background-color: #00c6ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #028dc7;
+}
